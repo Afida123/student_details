@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK DETAILS</title>
+</head>
+<style>
+    table{
+        text-align: center;
+        background-color: rosybrown;
+        margin: left;
+        /* width: 20px; */
+    }
+    td{
+        background-color: bisque;
+
+    }
+    
+</style>
+<body>
+    <h2><U>BOOK DETAILS</U></h2>
+    <table border="2px">
+    
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+    </tr>
+    {%for book in qs%}
+    <tr>
+     <td>{{book.title}}</td>
+     <td>{{book.author}}</td>
+    <td>{{book.genre}}</td>
+    {%endfor%}
+</tr>
+</table>
+</body>
+</html>

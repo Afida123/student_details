@@ -1,0 +1,14 @@
+#env_name/Scripts/activate.bat
+#django-admin startproject projectname
+#python manage,py runserver
+#python manage.py startapp appname
+#python manage.py makemigrations
+#python manage.py migrate
+#django default database sqlite3
+
+#models:which is used to perform certain actions using data eg:CRUD
+#makemigrations and migrate after shell
+#python manage.py shell
+#from app.models import models(Employee)
+#models.objects.create(name="aaaaa",age=2)
+#to retrive variable(name)=s=models.objects.all()
